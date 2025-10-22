@@ -78,4 +78,6 @@ patient.getPatientDetails()
 
 ```
 ## Sample Output
+<img width="518" height="399" alt="image" src="https://github.com/user-attachments/assets/9d5b5d48-b3c7-4395-a3b1-cfda203c56c1" />
+
 

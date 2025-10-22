@@ -1,4 +1,4 @@
-## Constructors in Python: show Student Name and id using constructors
+## Constructors in Python: Student Name and id using constructors
 ## 🎯 Aim
 To write a Python program that creates a **Student** class with a **default constructor**,which will take the name and userid of the person as parameters print the userid  of the person.
 
@@ -26,6 +26,8 @@ obj.display()
 
 
 ## Output
+<img width="1096" height="429" alt="image" src="https://github.com/user-attachments/assets/c167dc48-fd56-4e95-b101-0de50354cb9a" />
+
 
 ## Result
 The Python program that creates a **Student** class with a **default constructor**,which will take the name and userid of the person as parameters print the userid  of the person.

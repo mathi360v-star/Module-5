@@ -1,32 +1,33 @@
-# # Constructors in Python: Welcome Message with Student Name
-
+## Constructors in Python: show Student Name and id using constructors
 ## 🎯 Aim
-To write a Python program that creates a **Student** class with a **default constructor** and a method to display a welcome message along with the student’s name provided by the user.
+To write a Python program that creates a **Student** class with a **default constructor**,which will take the name and userid of the person as parameters print the userid  of the person.
 
 ## 🧠 Algorithm
 1. **Get user input**: Accept the student's name from the user.
 2. **Define the class**: Create a class `Student` with a default constructor (`__init__`).
 3. **Default Constructor**: In the constructor, assign the user input (student name) to an instance variable `self.a`.
-4. **Display Message**: Define a method `show` that prints "This is non-parameterized constructor" and a welcome message with the student’s name.
-5. **Execute the Program**: Instantiate the `Student` class and call the `show` method.
+4. **Display Message**: Define a method `display` show the name and userid of the person as parameters print the userid  of the person
+5. **Execute the Program**: Instantiate the `Student` class and call the `display` method.
 
 ## 🧾 Program
 ```
-name = input()
 class Student:
-    def __init__(self):
-        self.a = name  
-    def show(self):
-        print("This is non-parameterized constructor")
-        print("Welcome", self.a)
-s = Student()
-s.show()
-
+    def __init__(self,name,userid):
+        self.name=name
+        self.userid=userid
+        self.display()
+    def display(self):
+        print(self.userid)
+name=input()
+userid=input()
+obj = Student(name,userid)
+obj.display()      
 ```
 
 
 ## Output
 
 ## Result
-The Python program that creates a **Student** class with a **default constructor** and a method to display a welcome message along with the student’s name provided by the user is executed successfully.
+The Python program that creates a **Student** class with a **default constructor**,which will take the name and userid of the person as parameters print the userid  of the person.
+
 
